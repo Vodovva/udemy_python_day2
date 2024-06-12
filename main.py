@@ -59,12 +59,67 @@ print(str(70) + str(100))
 # Example 1 Output
 # 12
 
-two_digit_number = input()
+# two_digit_number = input()
 # 🚨 Don't change the code above 👆
 ####################################
 # Write your code below this line 👇
-print(type(two_digit_number))
-first_digit = int(two_digit_number[0])
-second_digit = int(two_digit_number [1])
-two_digit_number = first_digit + second_digit
-print(two_digit_number)
+# print(type(two_digit_number))
+# first_digit = int(two_digit_number[0])
+# second_digit = int(two_digit_number [1])
+# two_digit_number = first_digit + second_digit
+# print(two_digit_number)
+
+
+
+# 3 + 5 addition
+# 7 - 3 subtraction
+# 3 * 2 multiple
+# print(type(6 / 3)) division
+#  5 ** 6,  5 to the power of 6, 5*5*5*5*5*5
+# P E M D A S
+# ()
+# **
+# * /
+# + -
+
+print(3 * 3 + 3 / 3 - 3) 
+#  = 7 (3*3) + (3/3) - 3 = 7
+#  to get the number 3
+print(3 * (3 + 3) / 3 - 3)
+
+
+
+# Lesson 2
+# Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
+
+# BMI Wikipedia Page
+
+# The BMI is a measure of someone's weight taking into account their height. e.g. If a tall person and a short person both weigh the same amount, the short person is usually more overweight.
+
+# The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
+
+
+# NOTE: You should convert the bmi to a whole number and print out a whole number in order to pass all the tests. See examples below.
+
+# 1st input: enter height in meters e.g: 1.65
+# height = input()
+# 2nd input: enter weight in kilograms e.g: 72
+# weight = input()
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+# weight_as_int = int(weight)
+# height_as_float = float(height)
+# bmi = weight_as_int / height_as_float ** 2
+# # or
+# bmi = weight_as_int / (height_as_float * height_as_float)
+# bmi_as_int = int(bmi)
+# print(bmi_as_int)
+
+
+
+
+
+
+
+
