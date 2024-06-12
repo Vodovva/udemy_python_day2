@@ -118,8 +118,59 @@ print(3 * (3 + 3) / 3 - 3)
 
 
 
+# Round function
+print(round(8/3))
+#  Or
+print(round(2.666666666, 2))
+
+# // - floor division
+print(8//3) 
+
+# Variable
+result = 4/2
+result /=2
+print(result)
+
+score = 0
+
+# User scores a point
+score += 1
+print(score)
 
 
+# F-string
+print('your score is' + str(score))
+#  Better way
+score = 0
+height = 1.8
+isWinning = True
+print(f'your score is {score}, your height is {height}, your are winning is {isWinning}')
+
+
+
+# Lesson 3
+#  was reading this article by Tim Urban - Your Life in Weeks and realised just how little time we actually have.
+
+# Create a program using maths and f-Strings that tells us how many weeks we have left, if we live until 90 years old.
+
+# It will take your current age as the input and output a message with our time left in this format:
+
+# You have x weeks left.
+# Where x is replaced with the actual calculated number of weeks the input age has left until age 90.
+
+# Warning your output should match the Example Output format exactly, even the positions of the commas and full stops.
+
+# Example Input
+# 56
+# Example Output
+# You have 1768 weeks left.
+
+age = input()
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+years = 90 - int(age)
+weeks = years * 52
+print(f'You have {weeks} weeks left.')
 
 
 
